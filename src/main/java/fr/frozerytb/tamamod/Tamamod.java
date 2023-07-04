@@ -1,5 +1,6 @@
 package fr.frozerytb.tamamod;
 
+import fr.frozerytb.tamamod.blocks.ModBlocks;
 import fr.frozerytb.tamamod.proxy.CommonProxy;
 import fr.frozerytb.tamamod.utils.Reference;
 import net.minecraftforge.fml.common.Mod;
@@ -25,6 +26,8 @@ public class Tamamod
         logger = e.getModLog();
 
         proxy.preInit();
+
+        ModBlocks.init();
     }
 
     @Mod.EventHandler
