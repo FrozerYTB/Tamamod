@@ -22,8 +22,8 @@ public class ModBlocks
 
     public static void init()
     {
-        azurite_block = ModBlock("azurite_block", Material.IRON);
-        tamazium_block = ModBlock("tamazium_block", Material.IRON);
+        azurite_block = new ModBlock("azurite_block", Material.IRON);
+        tamazium_block = new ModBlock("tamazium_block", Material.IRON);
     }
 
     @SubscribeEvent
